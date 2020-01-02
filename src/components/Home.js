@@ -1,19 +1,18 @@
 import React from 'react';
+import Navbar from '../components/Navbar.js'
+import '../styles/home.css'
 
 const Home = () => {
     return(
         <div className='homeContainer'>
             <header>
-                Insert picture here to create a paralax on the homepage.
+                <h1>Kevin Nguyen</h1>
             </header>
+            <main>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus beatae perferendis, reprehenderit doloremque dolor repellendus nesciunt, sunt tempore eum tenetur magni rem nihil maxime labore natus accusamus aspernatur veritatis molestias? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum molestias id perspiciatis dolorum et necessitatibus alias, numquam placeat! Quo voluptate laboriosam doloremque earum dolorum ut repellendus perferendis facere natus quod.
+            </main>
             <div>
-                This section will include a little intro about Kevin. Include a "more info button" that jumps to the information page.
-            </div>
-            <div>
-                This section will include a proud moment. Include a button that jumps the the videography and photography page.
-            </div>
-            <div>
-                This section will include services that Kevin would be happy to create. Also include a button that jumps to the contact page.
+                <Navbar />
             </div>
         </div>
     )

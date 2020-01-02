@@ -1,0 +1,27 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 40px;
+}
+
+.homeContainer header {
+    border-bottom: 2px solid #E6B822;
+}
+
+.homeContainer header h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.homeContainer main {
+    width: 60vw;
+}
+
+.homeContainer main p {
+    color: #E1E4E6;
+    line-height: 0px;
+}
