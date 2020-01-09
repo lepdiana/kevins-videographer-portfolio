@@ -1,27 +1,24 @@
 import React from 'react';
-import GeneralNavbar from './GeneralNavbar.js'
+import GeneralNavbar from './GeneralNavbar.js';
+import '../styles/about.css'
 
 const About = () => {
     return(
         <div>
-            <header>
+            <div className='generalNavbar'>
                 <GeneralNavbar />
+            </div>
+            <div className="invisibileBox"></div>
+            <header className='header-paralax'>
+                <h1>About</h1>
             </header>
             <main>
-                <div>
-                    <h1>About</h1>
-                    <p>Within this parent div, give it a background image to create a paralax.</p>
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio facere voluptates illum et neque voluptas rerum ut nihil adipisci corporis sunt unde alias officia reiciendis eaque exercitationem odit, ipsam quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ad ratione ab atque quis. Dolor enim nostrum incidunt distinctio quidem in nesciunt, asperiores, officiis accusamus eos, veritatis blanditiis voluptatem maxime?</p>
-                </div>
-                <div>
-                    <p>Statement about your passions.</p>
-                </div>
-                <div>
-                    <p>Statement about your goals.</p>
+                <div className='aboutContainer'>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quo possimus ipsa magni placeat. Maxime dolorem obcaecati rem fugit illum, dolores saepe quibusdam, illo quos velit explicabo architecto praesentium! Provident! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, ullam quia dolore, nulla iusto itaque molestias optio distinctio delectus placeat odio ipsam animi repellat veritatis voluptatem deserunt? Distinctio, est modi! </p>
+                    <img src='https://images.unsplash.com/photo-1477160739634-171ff0343882?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1387&q=80' alt='cameraGear' className='aboutImage'/>
                 </div>
             </main>
+
         </div>
     )
 }
