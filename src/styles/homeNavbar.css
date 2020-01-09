@@ -1,0 +1,18 @@
+.homeNavContainer {
+    /* border: 1px solid red; */
+    width: 80vw;
+    display: flex;
+    /* flex-direction: column; */
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.homeNavContainer a {
+    text-decoration-line: none;
+    color: #7D7E80;
+}
+
+.homeNavContainer a:hover {
+   color: #E6B822
+}
