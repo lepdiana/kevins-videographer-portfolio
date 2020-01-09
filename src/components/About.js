@@ -1,12 +1,11 @@
 import React from 'react';
-import HomeNavbar from './HomeNavbar.js'
+import GeneralNavbar from './GeneralNavbar.js'
 
 const About = () => {
     return(
         <div>
             <header>
-                <h2>Kevin Nguyen</h2>
-                <HomeNavbar />
+                <GeneralNavbar />
             </header>
             <main>
                 <div>

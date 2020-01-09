@@ -1,0 +1,32 @@
+.generalNavContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.generalHomeLink > a {
+    text-decoration-line: none;
+    text-transform: uppercase;
+    color: #E6B822;
+    font-size: 2em;
+}
+
+.generalHomeLink a:hover {
+    color: #E1E4E6;
+ }
+
+.generalOtherLinks {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.generalOtherLinks > a {
+    text-decoration-line: none;
+    color: #E1E4E6;
+}
+
+.generalOtherLinks > a:hover {
+    color: #E6B822;
+ }
