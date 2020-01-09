@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* line-height: 40px; */
 }
 
 .homeContainer header {
@@ -18,11 +17,10 @@
     text-transform: uppercase;
 }
 
-.homeContainer main {
+.homeContainer .homeMain {
     width: 80vw;
 }
 
 .homeContainer main p {
     color: #E1E4E6;
-    line-height: 0px;
 }

@@ -21,6 +21,7 @@
     width: 40%;
     display: flex;
     justify-content: space-around;
+    color: #7D7E80;
 }
 
 .generalOtherLinks > a {
